@@ -1,4 +1,17 @@
-console.log("Hello World");
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quadrados dinâmicos! :D</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+    <meta charset="utf-8"> 
+    <meta name='viewport' content='width=device-width, initial-scale=1'>  
+  </head> 
+
+  <body>
+
+  <script>
+      console.log("Mouseover Project");
 
 var canvas = document.getElementById("canvas");
 var c = canvas.getContext("2d");
@@ -102,3 +115,6 @@ setInterval(function() {
   bal.push(new Ball());
   bal.splice(0, 1);
 }, 400);
+
+</script>
+</body>
