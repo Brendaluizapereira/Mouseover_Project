@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Quadrados dinâmicos! :D</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="estilo.css">
-    <meta charset="utf-8"> 
-    <meta name='viewport' content='width=device-width, initial-scale=1'>  
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-  </head> 
-
-  <body>
 
 
-
-  <script>
       console.log("Mouseover Project");
 
 var canvas = document.getElementById("canvas");
@@ -120,5 +105,3 @@ setInterval(function() {
   bal.splice(0, 1);
 }, 400);
 
-</script>
-</body>
